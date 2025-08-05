@@ -26,14 +26,14 @@ public class Student {
 
     public void printName(String name)
     {
-        System.out.println("Name is"+" "+name);
+        System.out.println("Name is "+" "+name);
     }
 
     //METHOD OVERLOADING-Either different return type for methods or different method signature.This is also called compile time polymerphism
 
     public void printBoth(String name,int age)
     {
-        System.out.println("Name is"+" "+name+" "+"age is"+" "+age);
+        System.out.println("Name is "+" "+name+" "+"age is "+" "+age);
     }
 
 
